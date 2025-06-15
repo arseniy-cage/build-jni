@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_re" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_no_map" />
+    <ImageView android:id="@+id/imageView12" android:background="@drawable/bg_dialog_pre" android:layout_width="@dimen/_260sdp" android:layout_height="@dimen/_130sdp" android:layout_marginTop="@dimen/_10sdp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.493" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView20" />
+    <TextView android:textSize="@dimen/_20sdp" android:textColor="#ffffffff" android:id="@+id/textView19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20sdp" android:text="Загрузка игры" android:fontFamily="@font/akrobat_extra_bold" app:layout_constraintEnd_toEndOf="@id/imageView11" app:layout_constraintStart_toStartOf="@id/imageView11" app:layout_constraintTop_toBottomOf="@id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/akrobat_semi_bold"
+        android:gravity="center"
+        android:text="Не закрывайте и не сворачивайте данное приложение, загрузка может остановиться"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toEndOf="@id/textView19"
+        app:layout_constraintStart_toStartOf="@id/textView19"
+        app:layout_constraintTop_toBottomOf="@id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/akrobat_extra_bold"
+        android:gravity="center"
+        android:text="Для старта загрузки файлов подтвердите загрузку."
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toEndOf="@id/imageView12"
+        app:layout_constraintStart_toStartOf="@id/imageView12"
+        app:layout_constraintTop_toTopOf="@id/imageView12" />
+    <Button android:textSize="@dimen/_14sdp" android:textColor="#ffffffff" android:id="@+id/brp_launcher_pre_load_download" android:background="@drawable/ic_btn_bg" android:layout_width="@dimen/_230sdp" android:layout_height="@dimen/_40sdp" android:text="Загрузить" android:textAllCaps="false" android:fontFamily="@font/akrobat_semi_bold" app:layout_constraintBottom_toBottomOf="@id/imageView12" app:layout_constraintEnd_toEndOf="@id/imageView12" app:layout_constraintStart_toStartOf="@id/imageView12" app:layout_constraintTop_toBottomOf="@id/textView21" />
+</androidx.constraintlayout.widget.ConstraintLayout>

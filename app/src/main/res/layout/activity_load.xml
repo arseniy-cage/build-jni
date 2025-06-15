@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/root" android:background="@drawable/bg_re" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="НЕ ЗАКРЫВАЙТЕ И НЕ СВОРАЧИВАЙТЕ ПРИЛОЖЕНИЕ ДО ЗАВЕРШЕНИЯ ЗАГРУЗКИ, А ТАКЖЕ НЕ ЗАБУДЬТЕ ПОДПИСАТЬСЯ НА ВЕЙКТОНА"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/imageView7" android:layout_width="@dimen/_200sdp" android:layout_height="@dimen/_200sdp" android:layout_marginTop="@dimen/_34sdp" android:src="@drawable/logo_no_map" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/brp_launcher_load_progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/loading_progress_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/brp_launcher_load_progress_titile" />
+    <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/white" android:id="@+id/brp_launcher_load_unzip_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_50sdp" android:text="Идет распаковка архива..." android:fontFamily="@font/montsserat_semibold" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageView7" />
+    <TextView android:textSize="@dimen/_10sdp" android:textColor="#ffffffff" android:id="@+id/brp_launcher_load_progress_titile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_45sdp" android:text="Подготовка к загрузке..." android:fontFamily="@font/montserrat_regular" app:layout_constraintStart_toStartOf="@id/brp_launcher_load_progress_bar" app:layout_constraintTop_toBottomOf="@id/imageView7" />
+    <TextView android:textSize="@dimen/_10sdp" android:textColor="#ff30b3ff" android:id="@+id/brp_launcher_load_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_45sdp" android:text="0%" android:fontFamily="@font/montserrat_regular" app:layout_constraintEnd_toEndOf="@id/brp_launcher_load_progress_bar" app:layout_constraintTop_toBottomOf="@id/imageView7" />
+
+    <TextView
+        android:id="@+id/brp_launcher_load_progress_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="0.0 MB из 0.0 MB"
+        android:textColor="#ff30b3ff"
+        android:textSize="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/brp_launcher_load_progress_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

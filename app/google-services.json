@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326642167580",
+    "project_id": "blackrussia-f3412",
+    "storage_bucket": "blackrussia-f3412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326642167580:android:9a906d47c6f70a0638d4d9",
+        "android_client_info": {
+          "package_name": "com.weiktongamesbrp.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326642167580-jio9nrci1qpesnualtturpgtvm5k4pul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp9jdJUK4FKqyjs0AXV5SW9EeuquIXVBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326642167580-jio9nrci1qpesnualtturpgtvm5k4pul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
